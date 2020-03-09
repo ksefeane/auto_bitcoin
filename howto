@@ -1,0 +1,122 @@
+how to mine monero
+-------------------
+
+https://www.monero.how/how-to-mine-monero-with-gpu
+
+based on proof-of-work algorithm called "cryptonight" 
+
+feasible to mine using cpu (resistant to ASIC miners)
+
+solo vs pool mining (low % chance of finding block solo, fees for pool)
+
+connect to mining pool using mining software (rewarded frequently in small amounts)
+	most mining software uses pool by default
+
+minergate: pool with reported lower hash rates
+
+advantages
+----------
+-resistant to ASIC mining hardware
+-support for multiple GPU's (inexpensive motherboard + multiple GPU's)
+	For example, using six Nvidia GTX 1060 GPUs can generate nearly 3000 hps
+-expandable & flexible
+	GPUs interface using the PCI-e specification. GPU's can be added, removed, & replaced different models
+- Linux requires no licensing, can be changed easily, and works very well in headless environments (can connect over a network).
+
+
+disadvatages
+------------
+-multi GPU's have special use cases e.g mining, machine learning
+-GPU's hard to buy in bulk due to high demand
+
+GPU mining Ubuntu 16.04+
+------------------------
+Nvidia - both Nvidia drivers & Cuda toolkit required
+
+-sudo apt-get install nvidia-390
+-(download Cuda toolkit)cd /tmp
+	sudo sh cuda_*.run
+
+-xmr-stack vs ccminer-cryptonight
+
+xmr-stack
+---------
+	Install dependencies, get the source, and make the project. To disable CPU mining, add  -DCPU_ENABLE=FALSE & -DOpenCL_ENABLE=FALSE to cmake line.
+
+sudo apt install libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev
+git clone https://github.com/fireice-uk/xmr-stak.git
+mkdir xmr-stak/build
+cd xmr-stak/build
+cmake ..
+make install
+
+	Configure the software by running xmr-stak for the first time. Dual mining configurations are supported.
+
+cd bin
+./xmr-stak
+
+	xmr-stak will prompt for values as shown below. It will also automatically generate default values which work well.
+
+Please enter:
+- Currency: 'monero' or 'aeon'
+monero
+- Pool address: e.g. pool.usxmrpool.com:3333
+MONERO_POOL_ADDRESS_HERE  # Replace MONERO_POOL_ADDRESS_HERE with the address of the pool you wish to use i.e. stratum+tcp://pool.minexmr.com:4444.
+- Username (wallet address or pool login):
+WALLET_ADDRESS_HERE # Replace WALLET_ADDRESS_HERE with your own Monero wallet's public address.
+- Password (mostly empty or x):
+x
+- Does this pool port support TLS/SSL? Use no if unknown. (y/N)
+N
+- Do you want to use nicehash on this pool? (y/n)
+n
+- Do you want to use multiple pools? (y/n)
+n
+
+	To run the mining software, execute xmr-stak a second time.
+./xmr-stak
+
+
+ports
+-----
+p2p port
+RPC port
+
+on the daemon side (bitmonerod)
+-p2p port used to connect to other nodes on the network or locally sometimes
+-RPC port (remote call procedure) used to let other applications e.g simplewallet interact with the daemon
+
+Default ports for the daemon are
+
+P2P: 18080 for the mainnet, 28080 for the testnet
+RPC: 18081 for the mainnet, 28081 for the testnet
+They can be changed with following options
+
+--p2p-bind-port
+--testnet-p2p-bind-port
+--rpc-bind-port
+--testnet-rpc-bind-port
+
+On the wallet side (simplewallet)
+
+RPC port is used to let other applications interact with the wallet for instance to get balance.
+
+The wallet do not act as a RPC server by default. It can be activated with the option --rpc-bind-port.
+
+For daemon and wallet
+
+The RPC data are exchanged using JSON-RPC a protocol based on JSON data format.
+
+simplewallet
+------------
+-wallet 
+
+bitmonerod
+-----------
+-monero daemon for interacting with monero blockchain
+	Most important functions of Monero's simplewallet and bitmonreod can be executed by means of JavaScript Object Notation Remote Procedure Calls (json-rpc).
+	Using these procedures, other applications can be developed on top of the simplewallet and bitmonerod. For examples, a GUI wallet, an web applications allowing for accessing wallet balance online, and block explorer.
+
+
+
+

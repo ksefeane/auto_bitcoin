@@ -1,0 +1,49 @@
+Measuring cpu performance and automating processes
+-------------------------------------------------
+
+commands
+--------
+top: all running processes on system
+	i - removes idle processes
+	M - sort by memory usage
+	S - sort by process length
+	P - sort by cpu usage
+	u - view processes of specific user
+	k - kill processes
+	r - renice processes
+
+iostat: list cpu, device & network file system utilization
+	c - cpu
+	d - device
+	h - network file 
+
+mpstat: activities of each processor
+	-P ALL - all cpus from 0
+	-P ALL 2 3 (2seconds 3 times)
+
+
+psutil
+------
+.cpu_times()
+.cpu_percent(interval=None, percpu=True) 
+.cpu_count()
+.getloadavg()
+.virtual_memory() : memory available
+.swap_memory()
+.disk_partitions()
+.disk_usage('/')
+.net_io_counters()
+.net_connections()
+.sensors_battery()
+.users()
+.pids()
+.process_iter()
+.wait_procs()
+
+
+free -m
+free -m | awk 'NR==2{printf "%.2f%%\t\t", $3*100/$2 }'
+
+df -h
+
+top -bn1 | grep load
