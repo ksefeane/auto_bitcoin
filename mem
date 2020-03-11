@@ -1,0 +1,12 @@
+#! /bin/bash 
+
+echo "MEM"
+while [ $SECONDS -lt 30 ]; do
+setterm -cursor off
+umem=$(free -m | awk 'NR==2{printf "%d/%d", $3, $2}')
+fmem=$(free -m | awk 'NR==2{printf "%d/%d", $7, $2}')
+echo -ne "\r\rused: ${umem}(mb)  avail: ${fmem}(mb)"
+sleep 1
+done
+echo -e "\ndone"
+setterm -cursor on

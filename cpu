@@ -1,0 +1,11 @@
+#! /bin/bash 
+
+echo "CPU"
+while [ $SECONDS -lt 30 ]; do
+setterm -cursor off
+cpu=$(top -bn1 | grep load | awk '{printf "%d%", $(NF-2) * 10}')
+echo -ne "\r${cpu}  "
+sleep 1
+done
+echo -e "\ndone"
+setterm -cursor on
