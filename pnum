@@ -1,0 +1,6 @@
+#! /bin/bash 
+
+i=$(ps -aH | grep -n $1 | awk '{printf "%d", $(NF-3)}')
+n=${i:0:1}
+echo $n
+ps -aH | awk 'NR>$n{printf "%s\n", $4}'
