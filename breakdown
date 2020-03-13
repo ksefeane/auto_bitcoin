@@ -1,0 +1,22 @@
+bitcoin project
+---------------
+
+1. monitoring server
+--------------------
+-which servers
+	specs
+?containerized
+?what are agents
+
+
+2. mining crypto
+----------------
+-which crypto (how many)
+-requirements/specs
+	working with gpu's
+-network details
+-installation
+	wallet
+	mining software etc
+-launch mining
+	?threads

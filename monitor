@@ -1,13 +1,18 @@
 #! /bin/bash 
 
-time=(60 * 60)
+time=60
 echo -e "CPU  \t| MEMORY"
 while [ $SECONDS -lt ${time} ]; do
 setterm -cursor off
-cpu=$(top -bn1 | grep load | awk '{printf "%d%", $(NF-2) * 10}')
+cpu=$(top -bn1 | grep load | awk '{printf "%d", $(NF-2) * 10}')
 umem=$(free -m | awk 'NR==2{printf "%d/%d", $3, $2}')
 fmem=$(free -m | awk 'NR==2{printf "%d/%d", $7, $2}')
-echo -ne "\r\r${cpu}  \t| used: ${umem}(mb)  avail: ${fmem}(mb)"
+echo -ne "\r\r${cpu}%  \t| used: ${umem}(mb)  avail: ${fmem}(mb)"
+if [ $cpu -gt  29 ]
+then
+python3 hello.py
+exit
+fi
 sleep 1
 done
 echo -e "\ndone"
