@@ -1,0 +1,15 @@
+#! /bin/bash 
+
+bat=$(sudo tlp-stat -b | grep Charge | awk 'NR==2{printf "%s", $(NF - 1)}')
+echo -e "CPU \t| BATTERY \t|MEMORY"
+while [ $SECONDS -lt 3000 ]; do
+setterm -cursor off
+bat=$(sudo tlp-stat -b | grep Charge | awk 'NR==2{printf "%s", $(NF - 1)}')
+cpu=$(top -bn1 | grep load | awk '{printf "%d", $(NF-2) * 10}')
+umem=$(free -m | awk 'NR==2{printf "%d/%d", $3, $2}')
+fmem=$(free -m | awk 'NR==2{printf "%d/%d", $7, $2}')
+echo -ne "\r${cpu}% \t| ${bat}% \t| used: ${umem}(mb)  avail: ${fmem}(mb)"
+sleep 1
+done
+echo -e "\ndone"
+setterm -cursor on

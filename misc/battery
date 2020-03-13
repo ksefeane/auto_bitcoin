@@ -1,0 +1,12 @@
+#! /bin/bash 
+
+bat=$(sudo tlp-stat -b | grep Charge | awk 'NR==2{printf "%s", $(NF - 1)}')
+echo -e "BATTERY |"
+while [ $SECONDS -lt 3000 ]; do
+setterm -cursor off
+bat=$(sudo tlp-stat -b | grep Charge | awk 'NR==2{printf "%s", $(NF - 1)}')
+echo -ne "\r${bat}%   |"
+sleep 1
+done
+echo -e "\ndone"
+setterm -cursor on
