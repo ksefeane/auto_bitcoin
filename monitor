@@ -10,7 +10,7 @@ fmem=$(free -m | awk 'NR==2{printf "%d/%d", $7, $2}')
 echo -ne "\r\r${cpu}%  \t| used: ${umem}(mb)  avail: ${fmem}(mb)"
 if [ $cpu -gt  29 ]
 then
-python3 hello.py
+#python3 hello.py
 exit
 fi
 sleep 1
