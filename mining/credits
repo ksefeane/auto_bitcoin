@@ -1,5 +1,0 @@
-#! /bin/bash 
-
-echo -n "Mr start..."
-sleep 3
-echo -ne "\rI don't feel so good\n              "

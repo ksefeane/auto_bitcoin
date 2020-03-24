@@ -1,9 +1,0 @@
-#! /bin/bash 
-
-echo -en "\rI am inevitable...      "
-sleep 3
-echo -en "\rand I...              "
-sleep 3
-echo -en "\ram...                 "
-sleep 4
-echo -en "\rIronman             \n"

@@ -1,0 +1,35 @@
+#! /bin/bash 
+
+if [ $1 -eq 1 ]; then
+echo -e "Infinity Mine v0.1\n"
+sleep 3
+echo -en "\rYou could not live with your own failure...               "
+sleep 3
+echo -en "\rand where did that bring you...                     "
+sleep 3
+echo -en "\rback to me                                                        "
+sleep 3
+echo -en "\r                                                        "
+elif [ $1 -eq 2 ]; then
+echo -en "\rI am inevitable...      "
+sleep 3
+echo -en "\rand I...              "
+sleep 3
+echo -en "\ram...                 "
+sleep 4
+echo -en "\rIronman             \n"
+sleep 4
+echo -en "\r                        "
+#! /bin/bash 
+elif [ $1 -eq 3 ]; then
+echo -ne "                                                 "
+echo -ne "\rMr stark..."
+sleep 3
+echo -e "I don't feel so good\n              "
+echo " .    .   .  . .    . .      "
+echo " . .     .      .   .  .  . .    . "
+echo " ..  .   .  . . . .    .     .   .   .   .     .     "
+echo ".  . . . . .    .    .    .    .   .   .   ."
+echo "  .     .     . . .    . .     .  .   .   .   ."
+echo " . .   .  .   .     .  .   .    . .      .  . "
+fi

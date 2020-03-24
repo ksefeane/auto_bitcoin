@@ -1,6 +1,6 @@
 #! /bin/bash 
 
-time=60
+time=1000
 echo -e "CPU  \t| MEMORY"
 while [ $SECONDS -lt ${time} ]; do
 setterm -cursor off
