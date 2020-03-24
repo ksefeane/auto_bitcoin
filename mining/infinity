@@ -1,0 +1,26 @@
+#! /bin/bash 
+
+setterm -cursor off
+sh intro
+k=0
+while [ $SECONDS -lt 1000 ]; do
+	#setterm -cursor off
+	umem=$(free -m | awk 'NR==2{printf "%d", $3}')
+	cpu=$(top -bn1 | grep load | awk '{printf "%d", $(NF-2) * 10}')
+	#echo -ne "\r${cpu}  "
+	if [ ${cpu} -gt 50 ] && [ ${k} -eq 1 ]; then
+		sh ending
+		pkill nanominer
+		k=0
+	elif [ ${umem} -lt 900 ] && [ ${k} -eq 0 ]; then
+		sh launcher 4 &
+		k=1
+		sleep 7
+	else
+		echo -ne "\r[cpu: ${cpu}% / mem: ${umem}] "
+	fi
+	sleep 2
+done
+pkill nanominer
+sh credits
+setterm -cursor on

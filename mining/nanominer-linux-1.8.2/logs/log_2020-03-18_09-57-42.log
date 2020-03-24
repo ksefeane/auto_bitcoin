@@ -1,0 +1,59 @@
+2020-03-18 09:57:42: <info>                                    _                 
+2020-03-18 09:57:42: <info>  _ __   __ _ _ __   ___  _ __ ___ (_)_ __   ___ _ __ 
+2020-03-18 09:57:42: <info> | '_ \ / _` | '_ \ / _ \| '_ ` _ \| | '_ \ / _ \ '__|
+2020-03-18 09:57:42: <info> | | | | (_| | | | | (_) | | | | | | | | | |  __/ |   
+2020-03-18 09:57:42: <info> |_| |_|\__,_|_| |_|\___/|_| |_| |_|_|_| |_|\___|_|   
+2020-03-18 09:57:42: <info> 
+2020-03-18 09:57:42: <info> Version 1.8.2
+2020-03-18 09:57:42: <info>  Started EthMan server on port 3333 without a password (read-only mode).
+2020-03-18 09:57:42: <info>  Started web interface on port 9090 without a password.
+2020-03-18 09:57:42: <info> Detected 0 devices
+2020-03-18 09:57:42: <info> -------------------Ethash:------------------
+2020-03-18 09:57:42: <info> Currency: Ethereum
+2020-03-18 09:57:42: <info> Wallet: 0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5
+2020-03-18 09:57:42: <info> Rig name: Grumpy_be1540cb
+2020-03-18 09:57:42: <info> Email was not set.
+2020-03-18 09:57:42: <info> Hashrate threshold to restart miner is not set
+2020-03-18 09:57:42: <info> Added pool: eth-asia1.nanopool.org:9433
+2020-03-18 09:57:42: <info> Added pool: eth-eu1.nanopool.org:9433
+2020-03-18 09:57:42: <info> Added pool: eth-us-east1.nanopool.org:9433
+2020-03-18 09:57:42: <info> Added pool: eth-us-west1.nanopool.org:9433
+2020-03-18 09:57:42: <info> Added pool: eth-jp1.nanopool.org:9433
+2020-03-18 09:57:42: <info> Added pool: eth-au1.nanopool.org:9433
+2020-03-18 09:57:42: <info> Added pool: eth-eu2.nanopool.org:9433
+2020-03-18 09:57:42: <info> Auto pool sorting is enabled
+2020-03-18 09:57:42: <info> ------------------RandomX:------------------
+2020-03-18 09:57:42: <info> Currency: Monero
+2020-03-18 09:57:42: <info> Wallet: 47qWaH9m9VKMUA4NH3VbZrK3pALXgFBw1hMmnaBiJSPSRbnAXo4nqkqJB67qNidyV5J46miK1zN7fWs3rdFTvF93BYqdptT
+2020-03-18 09:57:42: <info> Rig name: ace
+2020-03-18 09:57:42: <info> Email: msefeane@gmail.com
+2020-03-18 09:57:42: <info> Hashrate threshold to restart miner is not set
+2020-03-18 09:57:42: <info> Using CPU threads: 4
+2020-03-18 09:57:42: <info> Added pool: xmr-asia1.nanopool.org:14433
+2020-03-18 09:57:42: <info> Added pool: xmr-jp1.nanopool.org:14433
+2020-03-18 09:57:42: <info> Added pool: xmr-eu2.nanopool.org:14433
+2020-03-18 09:57:42: <info> Added pool: xmr-eu1.nanopool.org:14433
+2020-03-18 09:57:42: <info> Added pool: xmr-us-east1.nanopool.org:14433
+2020-03-18 09:57:42: <info> Added pool: xmr-us-west1.nanopool.org:14433
+2020-03-18 09:57:42: <info> Added pool: xmr-au1.nanopool.org:14433
+2020-03-18 09:57:42: <info> Auto pool sorting is enabled
+2020-03-18 09:57:42: <info> -------------Common parameters:-------------
+2020-03-18 09:57:42: <info> Log path: ./logs/
+2020-03-18 09:57:42: <info> Log is written to file
+2020-03-18 09:57:42: <info> GPU watchdog is enabled
+2020-03-18 09:57:42: <info> Never calling reboot.sh (always restarting the miner in case of errors). 
+2020-03-18 09:57:42: <info>  Setting up algorithm: Ethash
+2020-03-18 09:57:43: <info>  Setting up algorithm: RandomX
+2020-03-18 09:57:44: <info>  Connecting to pools...
+2020-03-18 09:57:44: <warning>  You are mining to a default wallet! Change it to yours!
+2020-03-18 09:57:44: <warning>  You are mining to a default wallet! Change it to yours!
+2020-03-18 09:57:44: <warning>  You are mining to a default wallet! Change it to yours!
+2020-03-18 09:57:44: <warning>  You are mining to a default wallet! Change it to yours!
+2020-03-18 09:57:44: <warning>  You are mining to a default wallet! Change it to yours!
+2020-03-18 09:57:44: <warning>  You are mining to a default wallet! Change it to yours!
+2020-03-18 09:57:44: <warning>  You are mining to a default wallet! Change it to yours!
+2020-03-18 09:57:44: <warning>  You are mining to a default wallet! Change it to yours!
+2020-03-18 09:57:44: <warning>  You are mining to a default wallet! Change it to yours!
+2020-03-18 09:57:44: <warning>  You are mining to a default wallet! Change it to yours!
+2020-03-18 09:57:44: <info>  Connecting to pools...
+2020-03-18 09:57:44: <info>  No GPU devices were detected, exiting.

@@ -1,0 +1,10 @@
+2020-03-20 09:50:49: <info>                                    _                 
+2020-03-20 09:50:49: <info>  _ __   __ _ _ __   ___  _ __ ___ (_)_ __   ___ _ __ 
+2020-03-20 09:50:49: <info> | '_ \ / _` | '_ \ / _ \| '_ ` _ \| | '_ \ / _ \ '__|
+2020-03-20 09:50:49: <info> | | | | (_| | | | | (_) | | | | | | | | | |  __/ |   
+2020-03-20 09:50:49: <info> |_| |_|\__,_|_| |_|\___/|_| |_| |_|_|_| |_|\___|_|   
+2020-03-20 09:50:49: <info> 
+2020-03-20 09:50:49: <info> Version 1.8.2
+2020-03-20 09:50:49: <error>  Load error
+2020-03-20 09:50:49: <error>  Minimal configuration file for Ethereum mining is "wallet=<your Ethereum wallet>".
+2020-03-20 09:50:49: <error>  See ReadMe document for detailed information.

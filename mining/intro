@@ -1,0 +1,11 @@
+#! /bin/bash 
+
+echo -e "Infinity Mine v0.1\n"
+sleep 3
+echo -en "\rYou could not live with your own failure...               "
+sleep 3
+echo -en "\rand where did that bring you...                     "
+sleep 3
+echo -en "\rback to me                                                        "
+sleep 3
+echo -en "\r                                                        "

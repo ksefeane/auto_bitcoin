@@ -1,0 +1,31 @@
+2020-03-19 14:06:06: <info>                                    _                 
+2020-03-19 14:06:06: <info>  _ __   __ _ _ __   ___  _ __ ___ (_)_ __   ___ _ __ 
+2020-03-19 14:06:06: <info> | '_ \ / _` | '_ \ / _ \| '_ ` _ \| | '_ \ / _ \ '__|
+2020-03-19 14:06:06: <info> | | | | (_| | | | | (_) | | | | | | | | | |  __/ |   
+2020-03-19 14:06:06: <info> |_| |_|\__,_|_| |_|\___/|_| |_| |_|_|_| |_|\___|_|   
+2020-03-19 14:06:06: <info> 
+2020-03-19 14:06:06: <info> Version 1.8.2
+2020-03-19 14:06:06: <info>  Started EthMan server on port 3333 without a password (read-only mode).
+2020-03-19 14:06:06: <info>  Started web interface on port 9090 without a password.
+2020-03-19 14:06:06: <info> ------------------RandomX:------------------
+2020-03-19 14:06:06: <info> Currency: Monero
+2020-03-19 14:06:06: <info> Wallet: 47qWaH9m9VKMUA4NH3VbZrK3pALXgFBw1hMmnaBiJSPSRbnAXo4nqkqJB67qNidyV5J46miK1zN7fWs3rdFTvF93BYqdptT
+2020-03-19 14:06:06: <info> Rig name: baby
+2020-03-19 14:06:06: <info> Email: msefeane@gmail.com
+2020-03-19 14:06:06: <info> Hashrate threshold to restart miner is not set
+2020-03-19 14:06:06: <info> Using CPU threads: 2
+2020-03-19 14:06:06: <info> Added pool: xmr-eu1.nanopool.org:14433
+2020-03-19 14:06:06: <info> Added pool: xmr-eu2.nanopool.org:14433
+2020-03-19 14:06:06: <info> Added pool: xmr-us-east1.nanopool.org:14433
+2020-03-19 14:06:06: <info> Added pool: xmr-us-west1.nanopool.org:14433
+2020-03-19 14:06:06: <info> Added pool: xmr-asia1.nanopool.org:14433
+2020-03-19 14:06:06: <info> Added pool: xmr-jp1.nanopool.org:14433
+2020-03-19 14:06:06: <info> Added pool: xmr-au1.nanopool.org:14433
+2020-03-19 14:06:06: <info> Auto pool sorting is enabled
+2020-03-19 14:06:06: <info> -------------Common parameters:-------------
+2020-03-19 14:06:06: <info> Log path: ./logs/
+2020-03-19 14:06:06: <info> Log is written to file
+2020-03-19 14:06:06: <info> GPU watchdog is enabled
+2020-03-19 14:06:06: <info> Never calling reboot.sh (always restarting the miner in case of errors). 
+2020-03-19 14:06:06: <info>  Setting up algorithm: RandomX
+2020-03-19 14:06:07: <info>  Connecting to pools...

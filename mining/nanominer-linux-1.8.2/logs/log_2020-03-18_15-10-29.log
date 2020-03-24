@@ -1,0 +1,848 @@
+2020-03-18 15:10:29: <info>                                    _                 
+2020-03-18 15:10:29: <info>  _ __   __ _ _ __   ___  _ __ ___ (_)_ __   ___ _ __ 
+2020-03-18 15:10:29: <info> | '_ \ / _` | '_ \ / _ \| '_ ` _ \| | '_ \ / _ \ '__|
+2020-03-18 15:10:29: <info> | | | | (_| | | | | (_) | | | | | | | | | |  __/ |   
+2020-03-18 15:10:29: <info> |_| |_|\__,_|_| |_|\___/|_| |_| |_|_|_| |_|\___|_|   
+2020-03-18 15:10:29: <info> 
+2020-03-18 15:10:29: <info> Version 1.8.2
+2020-03-18 15:10:29: <info>  Started EthMan server on port 3333 without a password (read-only mode).
+2020-03-18 15:10:29: <info>  Started web interface on port 9090 without a password.
+2020-03-18 15:10:29: <info> ------------------RandomX:------------------
+2020-03-18 15:10:29: <info> Currency: Monero
+2020-03-18 15:10:29: <info> Wallet: 47qWaH9m9VKMUA4NH3VbZrK3pALXgFBw1hMmnaBiJSPSRbnAXo4nqkqJB67qNidyV5J46miK1zN7fWs3rdFTvF93BYqdptT
+2020-03-18 15:10:29: <info> Rig name: baby
+2020-03-18 15:10:29: <info> Email: msefeane@gmail.com
+2020-03-18 15:10:29: <info> Hashrate threshold to restart miner is not set
+2020-03-18 15:10:29: <info> Using CPU threads: 9
+2020-03-18 15:10:29: <info> Added pool: xmr-eu2.nanopool.org:14433
+2020-03-18 15:10:29: <info> Added pool: xmr-eu1.nanopool.org:14433
+2020-03-18 15:10:29: <info> Added pool: xmr-us-east1.nanopool.org:14433
+2020-03-18 15:10:29: <info> Added pool: xmr-us-west1.nanopool.org:14433
+2020-03-18 15:10:29: <info> Added pool: xmr-asia1.nanopool.org:14433
+2020-03-18 15:10:29: <info> Added pool: xmr-jp1.nanopool.org:14433
+2020-03-18 15:10:29: <info> Added pool: xmr-au1.nanopool.org:14433
+2020-03-18 15:10:29: <info> Auto pool sorting is enabled
+2020-03-18 15:10:29: <info> -------------Common parameters:-------------
+2020-03-18 15:10:29: <info> Log path: ./logs/
+2020-03-18 15:10:29: <info> Log is written to file
+2020-03-18 15:10:29: <info> GPU watchdog is enabled
+2020-03-18 15:10:29: <info> Never calling reboot.sh (always restarting the miner in case of errors). 
+2020-03-18 15:10:29: <info>  Setting up algorithm: RandomX
+2020-03-18 15:10:30: <info>  Connecting to pools...
+2020-03-18 15:10:30: <info>  Connected to pool: xmr-eu2.nanopool.org:14433 | ping: 1376 ms.
+2020-03-18 15:10:31: <info> CPU: Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz | AVX2: yes | SSSE3: yes | AES: yes
+2020-03-18 15:10:31: <info>  New job from xmr-eu2.nanopool.org:14433 | share difficulty = 480 kH
+2020-03-18 15:10:31: [Statistics] Monero - Total speed: 0.000 H/s, Total shares: 0 Rejected: 0, Time: 00:02
+2020-03-18 15:10:31: <info>  Updating dataset...
+2020-03-18 15:10:38: <info>  Updating dataset finished.
+2020-03-18 15:10:51: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:10:51: [Statistics] Monero - Total speed: 361.562 H/s, Total shares: 0 Rejected: 0, Time: 00:22
+2020-03-18 15:10:51: [Statistics] Monero: CPU: 361.562 H/s
+2020-03-18 15:10:51: [Statistics] Monero last 10 min - Total: 361.562 H/s.
+2020-03-18 15:11:24: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:11:24: [Statistics] Monero - Total speed: 689.103 H/s, Total shares: 0 Rejected: 0, Time: 00:55
+2020-03-18 15:11:24: [Statistics] Monero: CPU: 689.103 H/s
+2020-03-18 15:12:23: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:12:23: [Statistics] Monero - Total speed: 765.239 H/s, Total shares: 0 Rejected: 0, Time: 01:54
+2020-03-18 15:12:23: [Statistics] Monero: CPU: 765.239 H/s
+2020-03-18 15:13:02: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:13:02: [Statistics] Monero - Total speed: 768.523 H/s, Total shares: 0 Rejected: 0, Time: 02:33
+2020-03-18 15:13:02: [Statistics] Monero: CPU: 768.523 H/s
+2020-03-18 15:14:02: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:14:02: [Statistics] Monero - Total speed: 772.674 H/s, Total shares: 0 Rejected: 0, Time: 03:33
+2020-03-18 15:14:02: [Statistics] Monero: CPU: 772.674 H/s
+2020-03-18 15:14:02: [Statistics] Monero last 10 min - Total: 714.399 H/s.
+2020-03-18 15:15:00: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:15:00: [Statistics] Monero - Total speed: 758.853 H/s, Total shares: 0 Rejected: 0, Time: 04:31
+2020-03-18 15:15:00: [Statistics] Monero: CPU: 758.853 H/s
+2020-03-18 15:16:01: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:16:01: [Statistics] Monero - Total speed: 752.867 H/s, Total shares: 0 Rejected: 0, Time: 05:31
+2020-03-18 15:16:01: [Statistics] Monero: CPU: 752.867 H/s
+2020-03-18 15:17:01: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:17:01: [Statistics] Monero - Total speed: 738.547 H/s, Total shares: 0 Rejected: 0, Time: 06:32
+2020-03-18 15:17:01: [Statistics] Monero: CPU: 738.547 H/s
+2020-03-18 15:17:21: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:17:21: [Statistics] Monero - Total speed: 716.179 H/s, Total shares: 0 Rejected: 0, Time: 06:52
+2020-03-18 15:17:21: [Statistics] Monero: CPU: 716.179 H/s
+2020-03-18 15:17:21: [Statistics] Monero last 10 min - Total: 734.001 H/s.
+2020-03-18 15:18:22: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:18:22: [Statistics] Monero - Total speed: 737.121 H/s, Total shares: 0 Rejected: 0, Time: 07:53
+2020-03-18 15:18:22: [Statistics] Monero: CPU: 737.121 H/s
+2020-03-18 15:18:37: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:18:37: [Statistics] Monero - Total speed: 748.472 H/s, Total shares: 0 Rejected: 0, Time: 08:08
+2020-03-18 15:18:37: [Statistics] Monero: CPU: 748.472 H/s
+2020-03-18 15:19:37: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:19:37: [Statistics] Monero - Total speed: 605.964 H/s, Total shares: 0 Rejected: 0, Time: 09:08
+2020-03-18 15:19:37: [Statistics] Monero: CPU: 605.964 H/s
+2020-03-18 15:20:08: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:20:08: [Statistics] Monero - Total speed: 599.833 H/s, Total shares: 0 Rejected: 0, Time: 09:39
+2020-03-18 15:20:08: [Statistics] Monero: CPU: 599.833 H/s
+2020-03-18 15:20:08: [Statistics] Monero last 10 min - Total: 720.101 H/s.
+2020-03-18 15:21:08: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:21:08: [Statistics] Monero - Total speed: 761.048 H/s, Total shares: 0 Rejected: 0, Time: 10:39
+2020-03-18 15:21:08: [Statistics] Monero: CPU: 761.048 H/s
+2020-03-18 15:22:08: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:22:08: [Statistics] Monero - Total speed: 743.441 H/s, Total shares: 0 Rejected: 0, Time: 11:39
+2020-03-18 15:22:08: [Statistics] Monero: CPU: 743.441 H/s
+2020-03-18 15:23:09: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:23:09: [Statistics] Monero - Total speed: 717.822 H/s, Total shares: 0 Rejected: 0, Time: 12:39
+2020-03-18 15:23:09: [Statistics] Monero: CPU: 717.822 H/s
+2020-03-18 15:23:56: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:23:56: [Statistics] Monero - Total speed: 726.391 H/s, Total shares: 0 Rejected: 0, Time: 13:27
+2020-03-18 15:23:56: [Statistics] Monero: CPU: 726.391 H/s
+2020-03-18 15:23:56: [Statistics] Monero last 10 min - Total: 722.404 H/s.
+2020-03-18 15:24:57: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:24:57: [Statistics] Monero - Total speed: 723.124 H/s, Total shares: 0 Rejected: 0, Time: 14:28
+2020-03-18 15:24:57: [Statistics] Monero: CPU: 723.124 H/s
+2020-03-18 15:25:46: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:25:46: [Statistics] Monero - Total speed: 728.063 H/s, Total shares: 0 Rejected: 0, Time: 15:17
+2020-03-18 15:25:46: [Statistics] Monero: CPU: 728.063 H/s
+2020-03-18 15:26:18: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:26:18: [Statistics] Monero - Total speed: 727.931 H/s, Total shares: 0 Rejected: 0, Time: 15:49
+2020-03-18 15:26:18: [Statistics] Monero: CPU: 727.931 H/s
+2020-03-18 15:27:11: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:27:11: [Statistics] Monero - Total speed: 725.816 H/s, Total shares: 0 Rejected: 0, Time: 16:42
+2020-03-18 15:27:11: [Statistics] Monero: CPU: 725.816 H/s
+2020-03-18 15:27:11: [Statistics] Monero last 10 min - Total: 713.351 H/s.
+2020-03-18 15:28:11: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:28:11: [Statistics] Monero - Total speed: 727.746 H/s, Total shares: 0 Rejected: 0, Time: 17:42
+2020-03-18 15:28:11: [Statistics] Monero: CPU: 727.746 H/s
+2020-03-18 15:29:02: <info>  Monero - SHARE FOUND (CPU, nonce: aba71ef7).
+2020-03-18 15:29:04: <info> Monero: share accepted (1453 ms)!
+2020-03-18 15:29:11: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:29:11: [Statistics] Monero - Total speed: 727.383 H/s, Total shares: 1 Rejected: 0, Time: 18:41
+2020-03-18 15:29:11: [Statistics] Monero: CPU: 727.383 H/s
+2020-03-18 15:29:12: <info>  Monero - SHARE FOUND (CPU, nonce: 8b566c2f).
+2020-03-18 15:29:12: <info> Monero: share accepted (395 ms)!
+2020-03-18 15:29:53: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:29:53: [Statistics] Monero - Total speed: 729.441 H/s, Total shares: 2 Rejected: 0, Time: 19:24
+2020-03-18 15:29:53: [Statistics] Monero: CPU: 729.441 H/s
+2020-03-18 15:30:25: <info>  Monero - SHARE FOUND (CPU, nonce: 41b22c6f).
+2020-03-18 15:30:25: <info> Monero: share accepted (681 ms)!
+2020-03-18 15:30:54: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:30:54: [Statistics] Monero - Total speed: 728.681 H/s, Total shares: 3 Rejected: 0, Time: 20:25
+2020-03-18 15:30:54: [Statistics] Monero: CPU: 728.681 H/s
+2020-03-18 15:30:54: [Statistics] Monero last 10 min - Total: 729.615 H/s.
+2020-03-18 15:31:54: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:31:54: [Statistics] Monero - Total speed: 729.720 H/s, Total shares: 3 Rejected: 0, Time: 21:25
+2020-03-18 15:31:54: [Statistics] Monero: CPU: 729.720 H/s
+2020-03-18 15:32:54: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:32:54: [Statistics] Monero - Total speed: 729.378 H/s, Total shares: 3 Rejected: 0, Time: 22:25
+2020-03-18 15:32:54: [Statistics] Monero: CPU: 729.378 H/s
+2020-03-18 15:33:49: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:33:49: [Statistics] Monero - Total speed: 729.639 H/s, Total shares: 3 Rejected: 0, Time: 23:20
+2020-03-18 15:33:49: [Statistics] Monero: CPU: 729.639 H/s
+2020-03-18 15:34:24: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:34:24: [Statistics] Monero - Total speed: 727.872 H/s, Total shares: 3 Rejected: 0, Time: 23:55
+2020-03-18 15:34:24: [Statistics] Monero: CPU: 727.872 H/s
+2020-03-18 15:34:24: [Statistics] Monero last 10 min - Total: 728.142 H/s.
+2020-03-18 15:35:00: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:35:00: [Statistics] Monero - Total speed: 725.919 H/s, Total shares: 3 Rejected: 0, Time: 24:31
+2020-03-18 15:35:00: [Statistics] Monero: CPU: 725.919 H/s
+2020-03-18 15:36:00: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:36:00: [Statistics] Monero - Total speed: 730.171 H/s, Total shares: 3 Rejected: 0, Time: 25:31
+2020-03-18 15:36:00: [Statistics] Monero: CPU: 730.171 H/s
+2020-03-18 15:37:00: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:37:00: [Statistics] Monero - Total speed: 729.644 H/s, Total shares: 3 Rejected: 0, Time: 26:31
+2020-03-18 15:37:00: [Statistics] Monero: CPU: 729.644 H/s
+2020-03-18 15:37:37: <info>  Monero - SHARE FOUND (CPU, nonce: 4c1b6382).
+2020-03-18 15:37:38: <info> Monero: share accepted (1021 ms)!
+2020-03-18 15:38:00: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:38:00: [Statistics] Monero - Total speed: 729.508 H/s, Total shares: 4 Rejected: 0, Time: 27:31
+2020-03-18 15:38:00: [Statistics] Monero: CPU: 729.508 H/s
+2020-03-18 15:38:00: [Statistics] Monero last 10 min - Total: 728.854 H/s.
+2020-03-18 15:38:28: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:38:28: [Statistics] Monero - Total speed: 729.814 H/s, Total shares: 4 Rejected: 0, Time: 27:59
+2020-03-18 15:38:28: [Statistics] Monero: CPU: 729.814 H/s
+2020-03-18 15:39:27: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:39:27: [Statistics] Monero - Total speed: 730.287 H/s, Total shares: 4 Rejected: 0, Time: 28:58
+2020-03-18 15:39:27: [Statistics] Monero: CPU: 730.287 H/s
+2020-03-18 15:40:27: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:40:27: [Statistics] Monero - Total speed: 728.457 H/s, Total shares: 4 Rejected: 0, Time: 29:58
+2020-03-18 15:40:27: [Statistics] Monero: CPU: 728.457 H/s
+2020-03-18 15:40:36: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:40:36: [Statistics] Monero - Total speed: 728.910 H/s, Total shares: 4 Rejected: 0, Time: 30:07
+2020-03-18 15:40:36: [Statistics] Monero: CPU: 728.910 H/s
+2020-03-18 15:40:36: [Statistics] Monero last 10 min - Total: 729.207 H/s.
+2020-03-18 15:41:37: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:41:37: [Statistics] Monero - Total speed: 729.075 H/s, Total shares: 4 Rejected: 0, Time: 31:08
+2020-03-18 15:41:37: [Statistics] Monero: CPU: 729.075 H/s
+2020-03-18 15:42:37: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:42:37: [Statistics] Monero - Total speed: 729.930 H/s, Total shares: 4 Rejected: 0, Time: 32:08
+2020-03-18 15:42:37: [Statistics] Monero: CPU: 729.930 H/s
+2020-03-18 15:43:28: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:43:28: [Statistics] Monero - Total speed: 731.161 H/s, Total shares: 4 Rejected: 0, Time: 32:59
+2020-03-18 15:43:28: [Statistics] Monero: CPU: 731.161 H/s
+2020-03-18 15:44:28: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:44:28: [Statistics] Monero - Total speed: 730.933 H/s, Total shares: 4 Rejected: 0, Time: 33:59
+2020-03-18 15:44:28: [Statistics] Monero: CPU: 730.933 H/s
+2020-03-18 15:44:28: [Statistics] Monero last 10 min - Total: 729.641 H/s.
+2020-03-18 15:45:29: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:45:29: [Statistics] Monero - Total speed: 729.427 H/s, Total shares: 4 Rejected: 0, Time: 35:00
+2020-03-18 15:45:29: [Statistics] Monero: CPU: 729.427 H/s
+2020-03-18 15:46:28: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:46:28: [Statistics] Monero - Total speed: 732.496 H/s, Total shares: 4 Rejected: 0, Time: 35:59
+2020-03-18 15:46:28: [Statistics] Monero: CPU: 732.496 H/s
+2020-03-18 15:47:17: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:47:17: [Statistics] Monero - Total speed: 731.687 H/s, Total shares: 4 Rejected: 0, Time: 36:48
+2020-03-18 15:47:17: [Statistics] Monero: CPU: 731.687 H/s
+2020-03-18 15:47:45: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:47:45: [Statistics] Monero - Total speed: 732.195 H/s, Total shares: 4 Rejected: 0, Time: 37:16
+2020-03-18 15:47:45: [Statistics] Monero: CPU: 732.195 H/s
+2020-03-18 15:47:45: [Statistics] Monero last 10 min - Total: 730.286 H/s.
+2020-03-18 15:48:23: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:48:23: [Statistics] Monero - Total speed: 732.917 H/s, Total shares: 4 Rejected: 0, Time: 37:54
+2020-03-18 15:48:23: [Statistics] Monero: CPU: 732.917 H/s
+2020-03-18 15:48:26: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:48:26: [Statistics] Monero - Total speed: 730.951 H/s, Total shares: 4 Rejected: 0, Time: 37:57
+2020-03-18 15:48:26: [Statistics] Monero: CPU: 730.951 H/s
+2020-03-18 15:49:27: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:49:27: [Statistics] Monero - Total speed: 733.839 H/s, Total shares: 4 Rejected: 0, Time: 38:58
+2020-03-18 15:49:27: [Statistics] Monero: CPU: 733.839 H/s
+2020-03-18 15:50:07: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:50:07: [Statistics] Monero - Total speed: 733.191 H/s, Total shares: 4 Rejected: 0, Time: 39:38
+2020-03-18 15:50:07: [Statistics] Monero: CPU: 733.191 H/s
+2020-03-18 15:50:07: [Statistics] Monero last 10 min - Total: 731.037 H/s.
+2020-03-18 15:51:07: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:51:07: [Statistics] Monero - Total speed: 735.279 H/s, Total shares: 4 Rejected: 0, Time: 40:38
+2020-03-18 15:51:07: [Statistics] Monero: CPU: 735.279 H/s
+2020-03-18 15:52:07: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:52:07: [Statistics] Monero - Total speed: 735.980 H/s, Total shares: 4 Rejected: 0, Time: 41:38
+2020-03-18 15:52:07: [Statistics] Monero: CPU: 735.980 H/s
+2020-03-18 15:52:17: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:52:17: [Statistics] Monero - Total speed: 735.462 H/s, Total shares: 4 Rejected: 0, Time: 41:48
+2020-03-18 15:52:17: [Statistics] Monero: CPU: 735.462 H/s
+2020-03-18 15:52:56: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:52:56: [Statistics] Monero - Total speed: 737.248 H/s, Total shares: 4 Rejected: 0, Time: 42:27
+2020-03-18 15:52:56: [Statistics] Monero: CPU: 737.248 H/s
+2020-03-18 15:52:56: [Statistics] Monero last 10 min - Total: 732.770 H/s.
+2020-03-18 15:53:56: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:53:56: [Statistics] Monero - Total speed: 738.052 H/s, Total shares: 4 Rejected: 0, Time: 43:27
+2020-03-18 15:53:56: [Statistics] Monero: CPU: 738.052 H/s
+2020-03-18 15:54:56: <info>  New job from xmr-eu2.nanopool.org:14433
+2020-03-18 15:54:56: [Statistics] Monero - Total speed: 735.968 H/s, Total shares: 4 Rejected: 0, Time: 44:27
+2020-03-18 15:54:56: [Statistics] Monero: CPU: 735.968 H/s
+2020-03-18 15:55:14: <info>  [RandomX] ~~~~~~ DevFee begin ~~~~~~
+2020-03-18 15:55:20: <info>  New job from commission host
+2020-03-18 15:55:20: [Statistics] Monero - Total speed: 734.801 H/s, Total shares: 4 Rejected: 0, Time: 44:51
+2020-03-18 15:55:20: [Statistics] Monero: CPU: 734.801 H/s
+2020-03-18 15:55:56: <info>  New job from commission host
+2020-03-18 15:55:56: [Statistics] Monero - Total speed: 737.390 H/s, Total shares: 4 Rejected: 0, Time: 45:27
+2020-03-18 15:55:56: [Statistics] Monero: CPU: 737.390 H/s
+2020-03-18 15:55:56: [Statistics] Monero last 10 min - Total: 734.707 H/s.
+2020-03-18 15:56:58: <info>  New job from commission host
+2020-03-18 15:56:58: [Statistics] Monero - Total speed: 738.134 H/s, Total shares: 4 Rejected: 0, Time: 46:29
+2020-03-18 15:56:58: [Statistics] Monero: CPU: 738.134 H/s
+2020-03-18 15:57:38: <info>  [RandomX] ~~~~~~ DevFee end ~~~~~~
+2020-03-18 15:57:53: <info>  New job from xmr-us-east1.nanopool.org:14433
+2020-03-18 15:57:53: [Statistics] Monero - Total speed: 737.326 H/s, Total shares: 4 Rejected: 0, Time: 47:24
+2020-03-18 15:57:53: [Statistics] Monero: CPU: 737.326 H/s
+2020-03-18 15:58:34: <info>  New job from xmr-us-east1.nanopool.org:14433
+2020-03-18 15:58:34: [Statistics] Monero - Total speed: 735.392 H/s, Total shares: 4 Rejected: 0, Time: 48:05
+2020-03-18 15:58:34: [Statistics] Monero: CPU: 735.392 H/s
+2020-03-18 15:59:13: <info>  New job from xmr-us-east1.nanopool.org:14433
+2020-03-18 15:59:13: [Statistics] Monero - Total speed: 731.937 H/s, Total shares: 4 Rejected: 0, Time: 48:44
+2020-03-18 15:59:13: [Statistics] Monero: CPU: 731.937 H/s
+2020-03-18 15:59:13: [Statistics] Monero last 10 min - Total: 736.104 H/s.
+2020-03-18 16:09:15: <info>  There were no new jobs in the past ten minutes. Stopping mining.
+2020-03-18 16:09:15: <info>  Connecting to pools...
+2020-03-18 16:09:18: <info>  Reconnected to pool: xmr-us-east1.nanopool.org:14433 | ping: 1414 ms.
+2020-03-18 16:09:57: <error>  Connection was closed.
+2020-03-18 16:09:57: <info>  Connecting to pools...
+2020-03-18 16:09:59: <info>  Connected to pool: xmr-us-west1.nanopool.org:14433 | ping: 1881 ms.
+2020-03-18 16:10:21: <error>  Connection was closed.
+2020-03-18 16:10:21: <info>  Connecting to pools...
+2020-03-18 16:10:24: <info>  Connected to pool: xmr-asia1.nanopool.org:14433 | ping: 1938 ms.
+2020-03-18 16:10:51: <error>  Connection was closed.
+2020-03-18 16:10:51: <info>  Connecting to pools...
+2020-03-18 16:10:55: <info>  Connected to pool: xmr-jp1.nanopool.org:14433 | ping: 2103 ms.
+2020-03-18 16:27:41: <error>  Connection was closed.
+2020-03-18 16:27:41: <info>  Connecting to pools...
+2020-03-18 16:27:41: <error>  Could not connect to any pools.
+2020-03-18 16:28:01: <info>  Connecting to pools...
+2020-03-18 16:28:01: <error>  Could not connect to any pools.
+2020-03-18 16:28:21: <info>  Connecting to pools...
+2020-03-18 16:28:21: <error>  Could not connect to any pools.
+2020-03-18 16:28:41: <info>  Connecting to pools...
+2020-03-18 16:28:41: <error>  Could not connect to any pools.
+2020-03-18 16:29:01: <info>  Connecting to pools...
+2020-03-18 16:29:01: <error>  Could not connect to any pools.
+2020-03-18 16:29:21: <info>  Connecting to pools...
+2020-03-18 16:29:21: <error>  Could not connect to any pools.
+2020-03-18 16:29:41: <info>  Connecting to pools...
+2020-03-18 16:29:41: <error>  Could not connect to any pools.
+2020-03-18 16:30:01: <info>  Connecting to pools...
+2020-03-18 16:30:01: <error>  Could not connect to any pools.
+2020-03-18 16:30:21: <info>  Connecting to pools...
+2020-03-18 16:30:21: <error>  Could not connect to any pools.
+2020-03-18 16:30:41: <info>  Connecting to pools...
+2020-03-18 16:30:41: <error>  Could not connect to any pools.
+2020-03-18 16:31:01: <info>  Connecting to pools...
+2020-03-18 16:31:01: <error>  Could not connect to any pools.
+2020-03-18 16:31:21: <info>  Connecting to pools...
+2020-03-18 16:31:21: <error>  Could not connect to any pools.
+2020-03-18 16:31:41: <info>  Connecting to pools...
+2020-03-18 16:31:41: <error>  Could not connect to any pools.
+2020-03-18 16:32:01: <info>  Connecting to pools...
+2020-03-18 16:32:01: <error>  Could not connect to any pools.
+2020-03-18 16:32:21: <info>  Connecting to pools...
+2020-03-18 16:32:21: <error>  Could not connect to any pools.
+2020-03-18 16:32:41: <info>  Connecting to pools...
+2020-03-18 16:32:42: <error>  Could not connect to any pools.
+2020-03-18 16:33:02: <info>  Connecting to pools...
+2020-03-18 16:33:02: <error>  Could not connect to any pools.
+2020-03-18 16:33:22: <info>  Connecting to pools...
+2020-03-18 16:33:22: <error>  Could not connect to any pools.
+2020-03-18 16:33:42: <info>  Connecting to pools...
+2020-03-18 16:33:42: <error>  Could not connect to any pools.
+2020-03-18 16:34:02: <info>  Connecting to pools...
+2020-03-18 16:34:02: <error>  Could not connect to any pools.
+2020-03-18 16:34:22: <info>  Connecting to pools...
+2020-03-18 16:34:22: <error>  Could not connect to any pools.
+2020-03-18 16:34:42: <info>  Connecting to pools...
+2020-03-18 16:34:42: <error>  Could not connect to any pools.
+2020-03-18 16:35:02: <info>  Connecting to pools...
+2020-03-18 16:35:02: <error>  Could not connect to any pools.
+2020-03-18 16:35:22: <info>  Connecting to pools...
+2020-03-18 16:35:22: <error>  Could not connect to any pools.
+2020-03-18 16:35:42: <info>  Connecting to pools...
+2020-03-18 16:35:42: <error>  Could not connect to any pools.
+2020-03-18 16:36:02: <info>  Connecting to pools...
+2020-03-18 16:36:02: <error>  Could not connect to any pools.
+2020-03-18 16:36:22: <info>  Connecting to pools...
+2020-03-18 16:36:22: <error>  Could not connect to any pools.
+2020-03-18 16:36:42: <info>  Connecting to pools...
+2020-03-18 16:36:42: <error>  Could not connect to any pools.
+2020-03-18 16:37:02: <info>  Connecting to pools...
+2020-03-18 16:37:02: <error>  Could not connect to any pools.
+2020-03-18 16:37:22: <info>  Connecting to pools...
+2020-03-18 16:37:22: <error>  Could not connect to any pools.
+2020-03-18 16:37:42: <info>  Connecting to pools...
+2020-03-18 16:37:42: <error>  Could not connect to any pools.
+2020-03-18 16:38:02: <info>  Connecting to pools...
+2020-03-18 16:38:02: <error>  Could not connect to any pools.
+2020-03-18 16:38:22: <info>  Connecting to pools...
+2020-03-18 16:38:22: <error>  Could not connect to any pools.
+2020-03-18 16:38:42: <info>  Connecting to pools...
+2020-03-18 16:38:42: <error>  Could not connect to any pools.
+2020-03-18 16:39:02: <info>  Connecting to pools...
+2020-03-18 16:39:02: <error>  Could not connect to any pools.
+2020-03-18 16:39:22: <info>  Connecting to pools...
+2020-03-18 16:39:22: <error>  Could not connect to any pools.
+2020-03-18 16:39:42: <info>  Connecting to pools...
+2020-03-18 16:39:42: <error>  Could not connect to any pools.
+2020-03-18 16:40:02: <info>  Connecting to pools...
+2020-03-18 16:40:02: <error>  Could not connect to any pools.
+2020-03-18 16:40:22: <info>  Connecting to pools...
+2020-03-18 16:40:22: <error>  Could not connect to any pools.
+2020-03-18 16:40:42: <info>  Connecting to pools...
+2020-03-18 16:40:42: <error>  Could not connect to any pools.
+2020-03-18 16:41:02: <info>  Connecting to pools...
+2020-03-18 16:41:02: <error>  Could not connect to any pools.
+2020-03-18 16:41:22: <info>  Connecting to pools...
+2020-03-18 16:41:22: <error>  Could not connect to any pools.
+2020-03-18 16:41:42: <info>  Connecting to pools...
+2020-03-18 16:41:42: <error>  Could not connect to any pools.
+2020-03-18 16:42:02: <info>  Connecting to pools...
+2020-03-18 16:42:02: <error>  Could not connect to any pools.
+2020-03-18 16:42:22: <info>  Connecting to pools...
+2020-03-18 16:42:22: <error>  Could not connect to any pools.
+2020-03-18 16:42:42: <info>  Connecting to pools...
+2020-03-18 16:42:42: <error>  Could not connect to any pools.
+2020-03-18 16:43:02: <info>  Connecting to pools...
+2020-03-18 16:43:02: <error>  Could not connect to any pools.
+2020-03-18 16:43:22: <info>  Connecting to pools...
+2020-03-18 16:43:22: <error>  Could not connect to any pools.
+2020-03-18 16:43:42: <info>  Connecting to pools...
+2020-03-18 16:43:42: <error>  Could not connect to any pools.
+2020-03-18 16:44:02: <info>  Connecting to pools...
+2020-03-18 16:44:02: <error>  Could not connect to any pools.
+2020-03-18 16:44:22: <info>  Connecting to pools...
+2020-03-18 16:44:22: <error>  Could not connect to any pools.
+2020-03-18 16:44:42: <info>  Connecting to pools...
+2020-03-18 16:44:43: <error>  Could not connect to any pools.
+2020-03-18 16:45:03: <info>  Connecting to pools...
+2020-03-18 16:45:03: <error>  Could not connect to any pools.
+2020-03-18 16:45:23: <info>  Connecting to pools...
+2020-03-18 16:45:23: <error>  Could not connect to any pools.
+2020-03-18 16:45:43: <info>  Connecting to pools...
+2020-03-18 16:45:43: <error>  Could not connect to any pools.
+2020-03-18 16:46:03: <info>  Connecting to pools...
+2020-03-18 16:46:03: <error>  Could not connect to any pools.
+2020-03-18 16:46:23: <info>  Connecting to pools...
+2020-03-18 16:46:23: <error>  Could not connect to any pools.
+2020-03-18 16:46:43: <info>  Connecting to pools...
+2020-03-18 16:46:43: <error>  Could not connect to any pools.
+2020-03-18 16:47:03: <info>  Connecting to pools...
+2020-03-18 16:47:03: <error>  Could not connect to any pools.
+2020-03-18 16:47:23: <info>  Connecting to pools...
+2020-03-18 16:47:23: <error>  Could not connect to any pools.
+2020-03-18 16:47:43: <info>  Connecting to pools...
+2020-03-18 16:47:43: <error>  Could not connect to any pools.
+2020-03-18 16:48:03: <info>  Connecting to pools...
+2020-03-18 16:48:03: <error>  Could not connect to any pools.
+2020-03-18 16:48:23: <info>  Connecting to pools...
+2020-03-18 16:48:23: <error>  Could not connect to any pools.
+2020-03-18 16:48:43: <info>  Connecting to pools...
+2020-03-18 16:48:43: <error>  Could not connect to any pools.
+2020-03-18 16:49:03: <info>  Connecting to pools...
+2020-03-18 16:49:03: <error>  Could not connect to any pools.
+2020-03-18 16:49:23: <info>  Connecting to pools...
+2020-03-18 16:49:23: <error>  Could not connect to any pools.
+2020-03-18 16:49:43: <info>  Connecting to pools...
+2020-03-18 16:49:43: <error>  Could not connect to any pools.
+2020-03-18 16:50:03: <info>  Connecting to pools...
+2020-03-18 16:50:03: <error>  Could not connect to any pools.
+2020-03-18 16:50:23: <info>  Connecting to pools...
+2020-03-18 16:50:23: <error>  Could not connect to any pools.
+2020-03-18 16:50:43: <info>  Connecting to pools...
+2020-03-18 16:50:43: <error>  Could not connect to any pools.
+2020-03-18 16:51:03: <info>  Connecting to pools...
+2020-03-18 16:51:03: <error>  Could not connect to any pools.
+2020-03-18 16:51:23: <info>  Connecting to pools...
+2020-03-18 16:51:23: <error>  Could not connect to any pools.
+2020-03-18 16:51:43: <info>  Connecting to pools...
+2020-03-18 16:51:43: <error>  Could not connect to any pools.
+2020-03-18 16:52:03: <info>  Connecting to pools...
+2020-03-18 16:52:03: <error>  Could not connect to any pools.
+2020-03-18 16:52:23: <info>  Connecting to pools...
+2020-03-18 16:52:23: <error>  Could not connect to any pools.
+2020-03-18 16:52:43: <info>  Connecting to pools...
+2020-03-18 16:52:43: <error>  Could not connect to any pools.
+2020-03-18 16:53:03: <info>  Connecting to pools...
+2020-03-18 16:53:03: <error>  Could not connect to any pools.
+2020-03-18 16:53:23: <info>  Connecting to pools...
+2020-03-18 16:53:23: <error>  Could not connect to any pools.
+2020-03-18 16:53:43: <info>  Connecting to pools...
+2020-03-18 16:53:43: <error>  Could not connect to any pools.
+2020-03-18 16:54:03: <info>  Connecting to pools...
+2020-03-18 16:54:03: <error>  Could not connect to any pools.
+2020-03-18 16:54:23: <info>  Connecting to pools...
+2020-03-18 16:54:23: <error>  Could not connect to any pools.
+2020-03-18 16:54:43: <info>  Connecting to pools...
+2020-03-18 16:54:43: <error>  Could not connect to any pools.
+2020-03-18 16:55:03: <info>  Connecting to pools...
+2020-03-18 16:55:03: <error>  Could not connect to any pools.
+2020-03-18 16:55:23: <info>  Connecting to pools...
+2020-03-18 16:55:23: <error>  Could not connect to any pools.
+2020-03-18 16:55:43: <info>  Connecting to pools...
+2020-03-18 16:55:43: <error>  Could not connect to any pools.
+2020-03-18 16:56:03: <info>  Connecting to pools...
+2020-03-18 16:56:03: <error>  Could not connect to any pools.
+2020-03-18 16:56:23: <info>  Connecting to pools...
+2020-03-18 16:56:23: <error>  Could not connect to any pools.
+2020-03-18 16:56:43: <info>  Connecting to pools...
+2020-03-18 16:56:43: <error>  Could not connect to any pools.
+2020-03-18 16:57:03: <info>  Connecting to pools...
+2020-03-18 16:57:03: <error>  Could not connect to any pools.
+2020-03-18 16:57:23: <info>  Connecting to pools...
+2020-03-18 16:57:23: <error>  Could not connect to any pools.
+2020-03-18 16:57:43: <info>  Connecting to pools...
+2020-03-18 16:57:44: <error>  Could not connect to any pools.
+2020-03-18 16:58:04: <info>  Connecting to pools...
+2020-03-18 16:58:04: <error>  Could not connect to any pools.
+2020-03-18 16:58:24: <info>  Connecting to pools...
+2020-03-18 16:58:24: <error>  Could not connect to any pools.
+2020-03-18 16:58:44: <info>  Connecting to pools...
+2020-03-18 16:58:44: <error>  Could not connect to any pools.
+2020-03-18 16:59:04: <info>  Connecting to pools...
+2020-03-18 16:59:04: <error>  Could not connect to any pools.
+2020-03-18 16:59:24: <info>  Connecting to pools...
+2020-03-18 16:59:24: <error>  Could not connect to any pools.
+2020-03-18 16:59:44: <info>  Connecting to pools...
+2020-03-18 16:59:44: <error>  Could not connect to any pools.
+2020-03-18 17:00:04: <info>  Connecting to pools...
+2020-03-18 17:00:04: <error>  Could not connect to any pools.
+2020-03-18 17:00:24: <info>  Connecting to pools...
+2020-03-18 17:00:24: <error>  Could not connect to any pools.
+2020-03-18 17:00:44: <info>  Connecting to pools...
+2020-03-18 17:00:44: <error>  Could not connect to any pools.
+2020-03-18 17:01:04: <info>  Connecting to pools...
+2020-03-18 17:01:04: <error>  Could not connect to any pools.
+2020-03-18 17:01:24: <info>  Connecting to pools...
+2020-03-18 17:01:24: <error>  Could not connect to any pools.
+2020-03-18 17:01:44: <info>  Connecting to pools...
+2020-03-18 17:01:44: <error>  Could not connect to any pools.
+2020-03-18 17:02:04: <info>  Connecting to pools...
+2020-03-18 17:02:04: <error>  Could not connect to any pools.
+2020-03-18 17:02:24: <info>  Connecting to pools...
+2020-03-18 17:02:24: <error>  Could not connect to any pools.
+2020-03-18 17:02:44: <info>  Connecting to pools...
+2020-03-18 17:02:44: <error>  Could not connect to any pools.
+2020-03-18 17:03:04: <info>  Connecting to pools...
+2020-03-18 17:03:04: <error>  Could not connect to any pools.
+2020-03-18 17:03:24: <info>  Connecting to pools...
+2020-03-18 17:03:24: <error>  Could not connect to any pools.
+2020-03-18 17:03:44: <info>  Connecting to pools...
+2020-03-18 17:03:44: <error>  Could not connect to any pools.
+2020-03-18 17:04:04: <info>  Connecting to pools...
+2020-03-18 17:04:04: <error>  Could not connect to any pools.
+2020-03-18 17:04:24: <info>  Connecting to pools...
+2020-03-18 17:04:24: <error>  Could not connect to any pools.
+2020-03-18 17:04:44: <info>  Connecting to pools...
+2020-03-18 17:04:44: <error>  Could not connect to any pools.
+2020-03-18 17:05:04: <info>  Connecting to pools...
+2020-03-18 17:05:04: <error>  Could not connect to any pools.
+2020-03-18 17:05:24: <info>  Connecting to pools...
+2020-03-18 17:05:24: <error>  Could not connect to any pools.
+2020-03-18 17:05:44: <info>  Connecting to pools...
+2020-03-18 17:05:44: <error>  Could not connect to any pools.
+2020-03-18 17:06:04: <info>  Connecting to pools...
+2020-03-18 17:06:04: <error>  Could not connect to any pools.
+2020-03-18 17:06:24: <info>  Connecting to pools...
+2020-03-18 17:06:24: <error>  Could not connect to any pools.
+2020-03-18 17:06:44: <info>  Connecting to pools...
+2020-03-18 17:06:44: <error>  Could not connect to any pools.
+2020-03-18 17:07:04: <info>  Connecting to pools...
+2020-03-18 17:07:04: <error>  Could not connect to any pools.
+2020-03-18 17:07:24: <info>  Connecting to pools...
+2020-03-18 17:07:24: <error>  Could not connect to any pools.
+2020-03-18 17:07:44: <info>  Connecting to pools...
+2020-03-18 17:07:44: <error>  Could not connect to any pools.
+2020-03-18 17:08:04: <info>  Connecting to pools...
+2020-03-18 17:08:04: <error>  Could not connect to any pools.
+2020-03-18 17:08:24: <info>  Connecting to pools...
+2020-03-18 17:08:24: <error>  Could not connect to any pools.
+2020-03-18 17:08:44: <info>  Connecting to pools...
+2020-03-18 17:08:44: <error>  Could not connect to any pools.
+2020-03-18 17:09:04: <info>  Connecting to pools...
+2020-03-18 17:09:04: <error>  Could not connect to any pools.
+2020-03-18 17:09:24: <info>  Connecting to pools...
+2020-03-18 17:09:24: <error>  Could not connect to any pools.
+2020-03-18 17:09:44: <info>  Connecting to pools...
+2020-03-18 17:09:44: <error>  Could not connect to any pools.
+2020-03-18 17:10:04: <info>  Connecting to pools...
+2020-03-18 17:10:04: <error>  Could not connect to any pools.
+2020-03-18 17:10:24: <info>  Connecting to pools...
+2020-03-18 17:10:25: <error>  Could not connect to any pools.
+2020-03-18 17:10:45: <info>  Connecting to pools...
+2020-03-18 17:10:45: <error>  Could not connect to any pools.
+2020-03-18 17:11:05: <info>  Connecting to pools...
+2020-03-18 17:11:05: <error>  Could not connect to any pools.
+2020-03-18 17:11:25: <info>  Connecting to pools...
+2020-03-18 17:11:25: <error>  Could not connect to any pools.
+2020-03-18 17:11:45: <info>  Connecting to pools...
+2020-03-18 17:11:45: <error>  Could not connect to any pools.
+2020-03-18 17:12:05: <info>  Connecting to pools...
+2020-03-18 17:12:05: <error>  Could not connect to any pools.
+2020-03-18 17:12:25: <info>  Connecting to pools...
+2020-03-18 17:12:25: <error>  Could not connect to any pools.
+2020-03-18 17:12:45: <info>  Connecting to pools...
+2020-03-18 17:12:45: <error>  Could not connect to any pools.
+2020-03-18 17:13:05: <info>  Connecting to pools...
+2020-03-18 17:13:05: <error>  Could not connect to any pools.
+2020-03-18 17:13:25: <info>  Connecting to pools...
+2020-03-18 17:13:25: <error>  Could not connect to any pools.
+2020-03-18 17:13:45: <info>  Connecting to pools...
+2020-03-18 17:13:45: <error>  Could not connect to any pools.
+2020-03-18 17:14:05: <info>  Connecting to pools...
+2020-03-18 17:14:05: <error>  Could not connect to any pools.
+2020-03-18 17:14:25: <info>  Connecting to pools...
+2020-03-18 17:14:25: <error>  Could not connect to any pools.
+2020-03-18 17:14:45: <info>  Connecting to pools...
+2020-03-18 17:14:45: <error>  Could not connect to any pools.
+2020-03-18 17:15:05: <info>  Connecting to pools...
+2020-03-18 17:15:05: <error>  Could not connect to any pools.
+2020-03-18 17:15:25: <info>  Connecting to pools...
+2020-03-18 17:15:25: <error>  Could not connect to any pools.
+2020-03-18 17:15:45: <info>  Connecting to pools...
+2020-03-18 17:15:45: <error>  Could not connect to any pools.
+2020-03-18 17:16:05: <info>  Connecting to pools...
+2020-03-18 17:16:05: <error>  Could not connect to any pools.
+2020-03-18 17:16:25: <info>  Connecting to pools...
+2020-03-18 17:16:25: <error>  Could not connect to any pools.
+2020-03-18 17:16:45: <info>  Connecting to pools...
+2020-03-18 17:16:45: <error>  Could not connect to any pools.
+2020-03-18 17:17:05: <info>  Connecting to pools...
+2020-03-18 17:17:05: <error>  Could not connect to any pools.
+2020-03-18 17:17:25: <info>  Connecting to pools...
+2020-03-18 17:17:25: <error>  Could not connect to any pools.
+2020-03-18 17:17:45: <info>  Connecting to pools...
+2020-03-18 17:17:45: <error>  Could not connect to any pools.
+2020-03-18 17:18:05: <info>  Connecting to pools...
+2020-03-18 17:18:05: <error>  Could not connect to any pools.
+2020-03-18 17:18:25: <info>  Connecting to pools...
+2020-03-18 17:18:25: <error>  Could not connect to any pools.
+2020-03-18 17:18:45: <info>  Connecting to pools...
+2020-03-18 17:18:45: <error>  Could not connect to any pools.
+2020-03-18 17:19:05: <info>  Connecting to pools...
+2020-03-18 17:19:05: <error>  Could not connect to any pools.
+2020-03-18 17:19:25: <info>  Connecting to pools...
+2020-03-18 17:19:25: <error>  Could not connect to any pools.
+2020-03-18 17:19:45: <info>  Connecting to pools...
+2020-03-18 17:19:45: <error>  Could not connect to any pools.
+2020-03-18 17:20:05: <info>  Connecting to pools...
+2020-03-18 17:20:05: <error>  Could not connect to any pools.
+2020-03-18 17:20:25: <info>  Connecting to pools...
+2020-03-18 17:20:25: <error>  Could not connect to any pools.
+2020-03-18 17:20:43: <info>  [RandomX] ~~~~~~ DevFee begin ~~~~~~
+2020-03-18 17:20:45: <error>  Could not connect to any pools.
+2020-03-18 17:20:46: <error>  Could not connect to any pools.
+2020-03-18 17:20:47: <error>  Could not connect to any pools.
+2020-03-18 17:20:48: <error>  Could not connect to any pools.
+2020-03-18 17:20:49: <error>  Could not connect to any pools.
+2020-03-18 17:20:50: <error>  Could not connect to any pools.
+2020-03-18 17:20:51: <error>  Could not connect to any pools.
+2020-03-18 17:20:52: <error>  Could not connect to any pools.
+2020-03-18 17:20:53: <error>  Could not connect to any pools.
+2020-03-18 17:20:54: <error>  Could not connect to any pools.
+2020-03-18 17:20:55: <error>  Could not connect to any pools.
+2020-03-18 17:20:56: <error>  Could not connect to any pools.
+2020-03-18 17:20:57: <error>  Could not connect to any pools.
+2020-03-18 17:20:58: <error>  Could not connect to any pools.
+2020-03-18 17:20:59: <error>  Could not connect to any pools.
+2020-03-18 17:21:00: <error>  Could not connect to any pools.
+2020-03-18 17:21:01: <error>  Could not connect to any pools.
+2020-03-18 17:21:02: <error>  Could not connect to any pools.
+2020-03-18 17:21:03: <error>  Could not connect to any pools.
+2020-03-18 17:21:04: <error>  Could not connect to any pools.
+2020-03-18 17:21:06: <error>  Could not connect to any pools.
+2020-03-18 17:21:07: <error>  Could not connect to any pools.
+2020-03-18 17:21:08: <error>  Could not connect to any pools.
+2020-03-18 17:21:09: <error>  Could not connect to any pools.
+2020-03-18 17:21:10: <error>  Could not connect to any pools.
+2020-03-18 17:21:11: <error>  Could not connect to any pools.
+2020-03-18 17:21:12: <error>  Could not connect to any pools.
+2020-03-18 17:21:13: <error>  Could not connect to any pools.
+2020-03-18 17:21:14: <error>  Could not connect to any pools.
+2020-03-18 17:21:15: <error>  Could not connect to any pools.
+2020-03-18 17:21:16: <error>  Could not connect to any pools.
+2020-03-18 17:21:17: <error>  Could not connect to any pools.
+2020-03-18 17:21:18: <error>  Could not connect to any pools.
+2020-03-18 17:21:19: <error>  Could not connect to any pools.
+2020-03-18 17:21:20: <error>  Could not connect to any pools.
+2020-03-18 17:21:21: <error>  Could not connect to any pools.
+2020-03-18 17:21:22: <error>  Could not connect to any pools.
+2020-03-18 17:21:23: <error>  Could not connect to any pools.
+2020-03-18 17:21:24: <error>  Could not connect to any pools.
+2020-03-18 17:21:25: <error>  Could not connect to any pools.
+2020-03-18 17:21:26: <error>  Could not connect to any pools.
+2020-03-18 17:21:27: <error>  Could not connect to any pools.
+2020-03-18 17:21:28: <error>  Could not connect to any pools.
+2020-03-18 17:21:29: <error>  Could not connect to any pools.
+2020-03-18 17:21:30: <error>  Could not connect to any pools.
+2020-03-18 17:21:31: <error>  Could not connect to any pools.
+2020-03-18 17:21:32: <error>  Could not connect to any pools.
+2020-03-18 17:21:33: <error>  Could not connect to any pools.
+2020-03-18 17:21:34: <error>  Could not connect to any pools.
+2020-03-18 17:21:35: <error>  Could not connect to any pools.
+2020-03-18 17:21:36: <error>  Could not connect to any pools.
+2020-03-18 17:21:37: <error>  Could not connect to any pools.
+2020-03-18 17:21:38: <error>  Could not connect to any pools.
+2020-03-18 17:21:39: <error>  Could not connect to any pools.
+2020-03-18 17:21:40: <error>  Could not connect to any pools.
+2020-03-18 17:21:41: <error>  Could not connect to any pools.
+2020-03-18 17:21:42: <error>  Could not connect to any pools.
+2020-03-18 17:21:43: <error>  Could not connect to any pools.
+2020-03-18 17:21:44: <error>  Could not connect to any pools.
+2020-03-18 17:21:45: <error>  Could not connect to any pools.
+2020-03-18 17:21:46: <error>  Could not connect to any pools.
+2020-03-18 17:21:47: <error>  Could not connect to any pools.
+2020-03-18 17:21:48: <error>  Could not connect to any pools.
+2020-03-18 17:21:49: <error>  Could not connect to any pools.
+2020-03-18 17:21:50: <error>  Could not connect to any pools.
+2020-03-18 17:21:51: <error>  Could not connect to any pools.
+2020-03-18 17:21:52: <error>  Could not connect to any pools.
+2020-03-18 17:21:53: <error>  Could not connect to any pools.
+2020-03-18 17:21:54: <error>  Could not connect to any pools.
+2020-03-18 17:21:55: <error>  Could not connect to any pools.
+2020-03-18 17:21:56: <error>  Could not connect to any pools.
+2020-03-18 17:21:57: <error>  Could not connect to any pools.
+2020-03-18 17:21:58: <error>  Could not connect to any pools.
+2020-03-18 17:21:59: <error>  Could not connect to any pools.
+2020-03-18 17:22:00: <error>  Could not connect to any pools.
+2020-03-18 17:22:01: <error>  Could not connect to any pools.
+2020-03-18 17:22:02: <error>  Could not connect to any pools.
+2020-03-18 17:22:03: <error>  Could not connect to any pools.
+2020-03-18 17:22:04: <error>  Could not connect to any pools.
+2020-03-18 17:22:05: <error>  Could not connect to any pools.
+2020-03-18 17:22:06: <error>  Could not connect to any pools.
+2020-03-18 17:22:07: <error>  Could not connect to any pools.
+2020-03-18 17:22:08: <error>  Could not connect to any pools.
+2020-03-18 17:22:09: <error>  Could not connect to any pools.
+2020-03-18 17:22:10: <error>  Could not connect to any pools.
+2020-03-18 17:22:11: <error>  Could not connect to any pools.
+2020-03-18 17:22:12: <error>  Could not connect to any pools.
+2020-03-18 17:22:13: <error>  Could not connect to any pools.
+2020-03-18 17:22:14: <error>  Could not connect to any pools.
+2020-03-18 17:22:15: <error>  Could not connect to any pools.
+2020-03-18 17:22:16: <error>  Could not connect to any pools.
+2020-03-18 17:22:17: <error>  Could not connect to any pools.
+2020-03-18 17:22:18: <error>  Could not connect to any pools.
+2020-03-18 17:22:19: <error>  Could not connect to any pools.
+2020-03-18 17:22:20: <error>  Could not connect to any pools.
+2020-03-18 17:22:21: <error>  Could not connect to any pools.
+2020-03-18 17:22:22: <error>  Could not connect to any pools.
+2020-03-18 17:22:23: <error>  Could not connect to any pools.
+2020-03-18 17:22:24: <error>  Could not connect to any pools.
+2020-03-18 17:22:25: <error>  Could not connect to any pools.
+2020-03-18 17:22:26: <error>  Could not connect to any pools.
+2020-03-18 17:22:27: <error>  Could not connect to any pools.
+2020-03-18 17:22:28: <error>  Could not connect to any pools.
+2020-03-18 17:22:29: <error>  Could not connect to any pools.
+2020-03-18 17:22:30: <error>  Could not connect to any pools.
+2020-03-18 17:22:31: <error>  Could not connect to any pools.
+2020-03-18 17:22:32: <error>  Could not connect to any pools.
+2020-03-18 17:22:33: <error>  Could not connect to any pools.
+2020-03-18 17:22:34: <error>  Could not connect to any pools.
+2020-03-18 17:22:35: <error>  Could not connect to any pools.
+2020-03-18 17:22:36: <error>  Could not connect to any pools.
+2020-03-18 17:22:37: <error>  Could not connect to any pools.
+2020-03-18 17:22:38: <error>  Could not connect to any pools.
+2020-03-18 17:22:39: <error>  Could not connect to any pools.
+2020-03-18 17:22:40: <error>  Could not connect to any pools.
+2020-03-18 17:22:41: <error>  Could not connect to any pools.
+2020-03-18 17:22:42: <error>  Could not connect to any pools.
+2020-03-18 17:22:43: <error>  Could not connect to any pools.
+2020-03-18 17:22:44: <error>  Could not connect to any pools.
+2020-03-18 17:22:45: <error>  Could not connect to any pools.
+2020-03-18 17:22:46: <error>  Could not connect to any pools.
+2020-03-18 17:22:47: <error>  Could not connect to any pools.
+2020-03-18 17:22:48: <error>  Could not connect to any pools.
+2020-03-18 17:22:49: <error>  Could not connect to any pools.
+2020-03-18 17:22:50: <error>  Could not connect to any pools.
+2020-03-18 17:22:51: <error>  Could not connect to any pools.
+2020-03-18 17:22:52: <error>  Could not connect to any pools.
+2020-03-18 17:22:53: <error>  Could not connect to any pools.
+2020-03-18 17:22:54: <error>  Could not connect to any pools.
+2020-03-18 17:22:55: <error>  Could not connect to any pools.
+2020-03-18 17:22:56: <error>  Could not connect to any pools.
+2020-03-18 17:22:57: <error>  Could not connect to any pools.
+2020-03-18 17:22:59: <error>  Could not connect to any pools.
+2020-03-18 17:23:00: <error>  Could not connect to any pools.
+2020-03-18 17:23:01: <error>  Could not connect to any pools.
+2020-03-18 17:23:02: <error>  Could not connect to any pools.
+2020-03-18 17:23:03: <error>  Could not connect to any pools.
+2020-03-18 17:23:04: <error>  Could not connect to any pools.
+2020-03-18 17:23:05: <error>  Could not connect to any pools.
+2020-03-18 17:23:06: <error>  Could not connect to any pools.
+2020-03-18 17:23:07: <error>  Could not connect to any pools.
+2020-03-18 17:23:07: <info>  [RandomX] ~~~~~~ DevFee end ~~~~~~
+2020-03-18 17:23:08: <info>  Connecting to pools...
+2020-03-18 17:23:08: <error>  Could not connect to any pools.
+2020-03-18 17:23:28: <info>  Connecting to pools...
+2020-03-18 17:23:28: <error>  Could not connect to any pools.
+2020-03-18 17:23:48: <info>  Connecting to pools...
+2020-03-18 17:23:48: <error>  Could not connect to any pools.
+2020-03-18 17:24:08: <info>  Connecting to pools...
+2020-03-18 17:24:08: <error>  Could not connect to any pools.
+2020-03-18 17:24:28: <info>  Connecting to pools...
+2020-03-18 17:24:28: <error>  Could not connect to any pools.
+2020-03-18 17:24:48: <info>  Connecting to pools...
+2020-03-18 17:24:48: <error>  Could not connect to any pools.
+2020-03-18 17:25:08: <info>  Connecting to pools...
+2020-03-18 17:25:08: <error>  Could not connect to any pools.
+2020-03-18 17:25:28: <info>  Connecting to pools...
+2020-03-18 17:25:28: <error>  Could not connect to any pools.
+2020-03-18 17:25:48: <info>  Connecting to pools...
+2020-03-18 17:25:48: <error>  Could not connect to any pools.
+2020-03-18 17:26:08: <info>  Connecting to pools...
+2020-03-18 17:26:08: <error>  Could not connect to any pools.
+2020-03-18 17:26:28: <info>  Connecting to pools...
+2020-03-18 17:26:28: <error>  Could not connect to any pools.
+2020-03-18 17:26:48: <info>  Connecting to pools...
+2020-03-18 17:26:48: <error>  Could not connect to any pools.
+2020-03-18 17:27:08: <info>  Connecting to pools...
+2020-03-18 17:27:08: <error>  Could not connect to any pools.
+2020-03-18 17:27:28: <info>  Connecting to pools...
+2020-03-18 17:27:28: <error>  Could not connect to any pools.
+2020-03-18 17:27:48: <info>  Connecting to pools...
+2020-03-18 17:27:48: <error>  Could not connect to any pools.
+2020-03-18 17:28:08: <info>  Connecting to pools...
+2020-03-18 17:28:08: <error>  Could not connect to any pools.
+2020-03-18 17:28:28: <info>  Connecting to pools...
+2020-03-18 17:28:28: <error>  Could not connect to any pools.
+2020-03-18 17:28:48: <info>  Connecting to pools...
+2020-03-18 17:28:48: <error>  Could not connect to any pools.
+2020-03-18 17:29:08: <info>  Connecting to pools...
+2020-03-18 17:29:08: <error>  Could not connect to any pools.
+2020-03-18 17:29:28: <info>  Connecting to pools...
+2020-03-18 17:29:28: <error>  Could not connect to any pools.
+2020-03-18 17:29:48: <info>  Connecting to pools...
+2020-03-18 17:29:48: <error>  Could not connect to any pools.
+2020-03-18 17:30:08: <info>  Connecting to pools...
+2020-03-18 17:30:08: <error>  Could not connect to any pools.
+2020-03-18 17:30:28: <info>  Connecting to pools...
+2020-03-18 17:30:28: <error>  Could not connect to any pools.
+2020-03-18 17:30:48: <info>  Connecting to pools...
+2020-03-18 17:30:48: <error>  Could not connect to any pools.
+2020-03-18 17:31:08: <info>  Connecting to pools...
+2020-03-18 17:31:08: <error>  Could not connect to any pools.
+2020-03-18 17:31:28: <info>  Connecting to pools...
+2020-03-18 17:31:28: <error>  Could not connect to any pools.
+2020-03-18 17:31:48: <info>  Connecting to pools...
+2020-03-18 17:31:48: <error>  Could not connect to any pools.
+2020-03-18 17:32:08: <info>  Connecting to pools...
+2020-03-18 17:32:08: <error>  Could not connect to any pools.
+2020-03-18 17:32:28: <info>  Connecting to pools...
+2020-03-18 17:32:28: <error>  Could not connect to any pools.
+2020-03-18 17:32:48: <info>  Connecting to pools...
+2020-03-18 17:32:48: <error>  Could not connect to any pools.
+2020-03-18 17:33:08: <info>  Connecting to pools...
+2020-03-18 17:33:08: <error>  Could not connect to any pools.
+2020-03-18 17:33:28: <info>  Connecting to pools...
+2020-03-18 17:33:28: <error>  Could not connect to any pools.
+2020-03-18 17:33:48: <info>  Connecting to pools...
+2020-03-18 17:33:48: <error>  Could not connect to any pools.
+2020-03-18 17:34:08: <info>  Connecting to pools...
+2020-03-18 17:34:09: <error>  Could not connect to any pools.
+2020-03-18 17:34:29: <info>  Connecting to pools...
+2020-03-18 17:34:29: <error>  Could not connect to any pools.
+2020-03-18 17:34:49: <info>  Connecting to pools...
+2020-03-18 17:34:49: <error>  Could not connect to any pools.
+2020-03-18 17:35:09: <info>  Connecting to pools...
+2020-03-18 17:35:09: <error>  Could not connect to any pools.
+2020-03-18 17:35:29: <info>  Connecting to pools...
+2020-03-18 17:35:29: <error>  Could not connect to any pools.
+2020-03-18 17:35:49: <info>  Connecting to pools...
+2020-03-18 17:35:49: <error>  Could not connect to any pools.
+2020-03-18 17:36:09: <info>  Connecting to pools...
+2020-03-18 17:36:09: <error>  Could not connect to any pools.
+2020-03-18 17:36:29: <info>  Connecting to pools...
+2020-03-18 17:36:29: <error>  Could not connect to any pools.
+2020-03-18 17:36:49: <info>  Connecting to pools...
+2020-03-18 17:36:49: <error>  Could not connect to any pools.
+2020-03-18 17:37:09: <info>  Connecting to pools...
+2020-03-18 17:37:09: <error>  Could not connect to any pools.
+2020-03-18 17:37:29: <info>  Connecting to pools...
+2020-03-18 17:37:29: <error>  Could not connect to any pools.
+2020-03-18 17:37:49: <info>  Connecting to pools...
+2020-03-18 17:37:49: <error>  Could not connect to any pools.
+2020-03-18 17:38:09: <info>  Connecting to pools...
+2020-03-18 17:38:09: <error>  Could not connect to any pools.
+2020-03-18 17:38:29: <info>  Connecting to pools...
+2020-03-18 17:38:29: <error>  Could not connect to any pools.
+2020-03-18 17:38:49: <info>  Connecting to pools...
+2020-03-18 17:38:49: <error>  Could not connect to any pools.
+2020-03-18 17:39:09: <info>  Connecting to pools...
+2020-03-18 17:39:09: <error>  Could not connect to any pools.
+2020-03-18 17:39:29: <info>  Connecting to pools...
+2020-03-18 17:39:29: <error>  Could not connect to any pools.
+2020-03-18 17:39:49: <info>  Connecting to pools...
+2020-03-18 17:39:49: <error>  Could not connect to any pools.
+2020-03-18 17:40:09: <info>  Connecting to pools...
+2020-03-18 17:40:09: <error>  Could not connect to any pools.
+2020-03-18 17:40:29: <info>  Connecting to pools...
+2020-03-18 17:40:29: <error>  Could not connect to any pools.
+2020-03-18 17:40:49: <info>  Connecting to pools...
+2020-03-18 17:40:49: <error>  Could not connect to any pools.
+2020-03-18 17:41:09: <info>  Connecting to pools...
+2020-03-18 17:41:09: <error>  Could not connect to any pools.
+2020-03-18 17:41:29: <info>  Connecting to pools...
+2020-03-18 17:41:29: <error>  Could not connect to any pools.
+2020-03-18 17:41:49: <info>  Connecting to pools...
+2020-03-18 17:41:49: <error>  Could not connect to any pools.
+2020-03-18 17:42:09: <info>  Connecting to pools...
+2020-03-18 17:42:09: <error>  Could not connect to any pools.
+2020-03-18 17:42:29: <info>  Connecting to pools...
+2020-03-18 17:42:29: <error>  Could not connect to any pools.
+2020-03-18 21:29:44: <info>  Connecting to pools...
+2020-03-18 21:29:44: <error>  Could not connect to any pools.
+2020-03-18 21:30:04: <info>  Connecting to pools...
+2020-03-18 21:30:04: <error>  Could not connect to any pools.
+2020-03-18 21:30:24: <info>  Connecting to pools...
+2020-03-18 21:30:24: <error>  Could not connect to any pools.
+2020-03-18 21:30:44: <info>  Connecting to pools...
+2020-03-18 21:30:44: <error>  Could not connect to any pools.
+2020-03-18 21:31:04: <info>  Connecting to pools...
+2020-03-18 21:31:04: <error>  Could not connect to any pools.

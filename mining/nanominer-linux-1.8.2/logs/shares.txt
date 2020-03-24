@@ -1,0 +1,6 @@
+2020-03-18 12:20:44: <info>  Monero - SHARE FOUND (CPU, nonce: da46b16b).
+2020-03-18 12:54:34: <info>  Monero - SHARE FOUND (CPU, nonce: 9f4f073f).
+2020-03-18 12:55:32: <info>  Monero - SHARE FOUND (CPU, nonce: 28194d25).
+2020-03-18 13:02:17: <info>  Monero - SHARE FOUND (CPU, nonce: db5b2bf8).
+2020-03-18 13:03:45: <info>  Monero - SHARE FOUND (CPU, nonce: 9d0910f8).
+2020-03-18 13:26:41: <info>  Monero - SHARE FOUND (CPU, nonce: b5c8d6c8).
