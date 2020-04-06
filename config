@@ -1,0 +1,6 @@
+#! /bin/bash 
+
+ram=2200
+load=70
+threads=2
+time=3600

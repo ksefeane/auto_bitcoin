@@ -1,0 +1,69 @@
+2020-03-24 21:56:31: <info>                                    _                 
+2020-03-24 21:56:31: <info>  _ __   __ _ _ __   ___  _ __ ___ (_)_ __   ___ _ __ 
+2020-03-24 21:56:31: <info> | '_ \ / _` | '_ \ / _ \| '_ ` _ \| | '_ \ / _ \ '__|
+2020-03-24 21:56:31: <info> | | | | (_| | | | | (_) | | | | | | | | | |  __/ |   
+2020-03-24 21:56:31: <info> |_| |_|\__,_|_| |_|\___/|_| |_| |_|_|_| |_|\___|_|   
+2020-03-24 21:56:31: <info> 
+2020-03-24 21:56:31: <info> Version 1.8.2
+2020-03-24 21:56:31: <info>  Started EthMan server on port 3333 without a password (read-only mode).
+2020-03-24 21:56:31: <info>  Started web interface on port 9090 without a password.
+2020-03-24 21:56:31: <info> ------------------RandomX:------------------
+2020-03-24 21:56:31: <info> Currency: Monero
+2020-03-24 21:56:31: <info> Wallet: 47qWaH9m9VKMUA4NH3VbZrK3pALXgFBw1hMmnaBiJSPSRbnAXo4nqkqJB67qNidyV5J46miK1zN7fWs3rdFTvF93BYqdptT
+2020-03-24 21:56:31: <info> Rig name: baby
+2020-03-24 21:56:31: <info> Email: msefeane@gmail.com
+2020-03-24 21:56:31: <info> Hashrate threshold to restart miner is not set
+2020-03-24 21:56:31: <info> Using CPU threads: 4
+2020-03-24 21:56:31: <info> Added pool: xmr-eu1.nanopool.org:14433
+2020-03-24 21:56:31: <info> Added pool: xmr-eu2.nanopool.org:14433
+2020-03-24 21:56:31: <info> Added pool: xmr-us-east1.nanopool.org:14433
+2020-03-24 21:56:31: <info> Added pool: xmr-asia1.nanopool.org:14433
+2020-03-24 21:56:31: <info> Added pool: xmr-us-west1.nanopool.org:14433
+2020-03-24 21:56:31: <info> Added pool: xmr-jp1.nanopool.org:14433
+2020-03-24 21:56:31: <info> Added pool: xmr-au1.nanopool.org:14433
+2020-03-24 21:56:31: <info> Auto pool sorting is enabled
+2020-03-24 21:56:31: <info> -------------Common parameters:-------------
+2020-03-24 21:56:31: <info> Log path: ./logs/
+2020-03-24 21:56:31: <info> Log is written to file
+2020-03-24 21:56:31: <info> GPU watchdog is enabled
+2020-03-24 21:56:31: <info> Never calling reboot.sh (always restarting the miner in case of errors). 
+2020-03-24 21:56:31: <info>  Setting up algorithm: RandomX
+2020-03-24 21:56:31: <info>  Connecting to pools...
+2020-03-24 21:56:32: <info>  Connected to pool: xmr-eu1.nanopool.org:14433 | ping: 1314 ms.
+2020-03-24 21:56:32: <info> CPU: Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz | AVX2: yes | SSSE3: yes | AES: yes
+2020-03-24 21:56:32: <info>  New job from xmr-eu1.nanopool.org:14433 | share difficulty = 480 kH
+2020-03-24 21:56:32: [Statistics] Monero - Total speed: 0.000 H/s, Total shares: 0 Rejected: 0, Time: 00:01
+2020-03-24 21:56:32: <info>  Updating dataset...
+2020-03-24 21:56:40: <info>  Updating dataset finished.
+2020-03-24 21:56:53: <info>  New job from xmr-eu1.nanopool.org:14433
+2020-03-24 21:56:53: [Statistics] Monero - Total speed: 294.035 H/s, Total shares: 0 Rejected: 0, Time: 00:22
+2020-03-24 21:56:53: [Statistics] Monero: CPU: 294.035 H/s
+2020-03-24 21:56:53: [Statistics] Monero last 10 min - Total: 294.035 H/s.
+2020-03-24 21:57:06: <info>  New job from xmr-eu1.nanopool.org:14433
+2020-03-24 21:57:06: [Statistics] Monero - Total speed: 463.948 H/s, Total shares: 0 Rejected: 0, Time: 00:35
+2020-03-24 21:57:06: [Statistics] Monero: CPU: 463.948 H/s
+2020-03-24 21:58:02: <info>  New job from xmr-eu1.nanopool.org:14433
+2020-03-24 21:58:02: [Statistics] Monero - Total speed: 591.816 H/s, Total shares: 0 Rejected: 0, Time: 01:31
+2020-03-24 21:58:02: [Statistics] Monero: CPU: 591.816 H/s
+2020-03-24 21:59:06: <info>  New job from xmr-eu1.nanopool.org:14433
+2020-03-24 21:59:06: [Statistics] Monero - Total speed: 608.455 H/s, Total shares: 0 Rejected: 0, Time: 02:35
+2020-03-24 21:59:06: [Statistics] Monero: CPU: 608.455 H/s
+2020-03-24 22:00:02: <info>  New job from xmr-eu1.nanopool.org:14433
+2020-03-24 22:00:02: [Statistics] Monero - Total speed: 613.210 H/s, Total shares: 0 Rejected: 0, Time: 03:31
+2020-03-24 22:00:02: [Statistics] Monero: CPU: 613.210 H/s
+2020-03-24 22:00:02: [Statistics] Monero last 10 min - Total: 566.662 H/s.
+2020-03-24 22:00:53: <info>  Monero - SHARE FOUND (CPU, nonce: 65f1886f).
+2020-03-24 22:00:54: <info> Monero: share accepted (886 ms)!
+2020-03-24 22:01:03: <info>  New job from xmr-eu1.nanopool.org:14433
+2020-03-24 22:01:03: [Statistics] Monero - Total speed: 604.468 H/s, Total shares: 1 Rejected: 0, Time: 04:31
+2020-03-24 22:01:03: [Statistics] Monero: CPU: 604.468 H/s
+2020-03-24 22:02:03: <info>  New job from xmr-eu1.nanopool.org:14433
+2020-03-24 22:02:03: [Statistics] Monero - Total speed: 604.671 H/s, Total shares: 1 Rejected: 0, Time: 05:31
+2020-03-24 22:02:03: [Statistics] Monero: CPU: 604.671 H/s
+2020-03-24 22:02:07: <info>  New job from xmr-eu1.nanopool.org:14433
+2020-03-24 22:02:07: [Statistics] Monero - Total speed: 608.303 H/s, Total shares: 1 Rejected: 0, Time: 05:35
+2020-03-24 22:02:07: [Statistics] Monero: CPU: 608.303 H/s
+2020-03-24 22:03:07: <info>  New job from xmr-eu1.nanopool.org:14433
+2020-03-24 22:03:07: [Statistics] Monero - Total speed: 606.995 H/s, Total shares: 1 Rejected: 0, Time: 06:35
+2020-03-24 22:03:07: [Statistics] Monero: CPU: 606.995 H/s
+2020-03-24 22:03:07: [Statistics] Monero last 10 min - Total: 586.572 H/s.
