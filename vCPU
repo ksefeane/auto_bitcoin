@@ -1,0 +1,40 @@
+VM		|CPU's	|Cores p/s	|Max	|Overall	|Level	|Shares	|
+-------------------------------------------------------------
+Ubuntu	|6		|6			|12600	|2121		|normal	|6000	|
+
+
+cpu credits
+===========
+-baseline level cpu performance
+-burst above level
+
+performance governed by cpu credits
+
+1 credit -> 100% cpu core for 1 minute / 50% 2 min etc
+
+
+earning
+=======
+-instance earns set rate of cpu credits per hour depending on instance size?
+-burst of cpu uses cpu credit
+
+accrued
+======
+
+acc / vCPU / 60 min = baseline performance
+
+AB_servers
+==========
+-monitor server stats
+	-avg (min, max, burst)
+	-bursts & drops (times)
+	-usage < avg & ready < avg = start
+
+	-avg = avg + cpu / n
+	-min = cpu..if cpu < min -> min = cpu
+	-max = cpu..if cpu > max -> max = cpu
+	-burst = cpuB - cpuA: 0 -> 1 ratio
+	-drop = cpuB - cpuA: 0 -> -1 ratio
+
+EC2
+===

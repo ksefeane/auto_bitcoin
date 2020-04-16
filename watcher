@@ -1,0 +1,29 @@
+#! /bin/bash 
+
+sum=0
+avg=0
+min=100
+max=0
+burst=0
+i=1
+j=0
+clear
+source ./func.sh
+while [ $SECONDS -lt 360 ]; do
+	umem=$(nowMEM)
+	cpu=$(nowCPU)
+	sum=$(($sum + $cpu))
+	avg=$(avgCPU $sum $i)
+	min=$(minCPU $cpu ${min})
+	max=$(maxCPU $cpu ${max})
+	if [ ${j} -eq 1 ]; then
+		cpuA=$(nowCPU)
+	elif [ ${j} -eq 10 ]; then
+		burst=$(burstCPU)
+		j=0
+	fi
+	echo -ne "\r[cpu: ${cpu}% avg: ${avg}% min: ${min}% max: ${max}% burst: ${burst}% ] ${i}  "
+	((i++))
+	((j++))
+	sleep 1
+done

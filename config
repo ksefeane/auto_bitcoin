@@ -1,6 +1,7 @@
 #! /bin/bash 
 
-ram=2200
-load=70
-threads=2
-time=3600
+threads=7
+time=36000
+interval=3
+idle=35
+spike=3

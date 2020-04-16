@@ -1,0 +1,8 @@
+#! /bin/zsh 
+
+source ./func.sh 
+source ./config 
+
+while [ $SECONDS -lt ${time} ]; do
+	
+done

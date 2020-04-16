@@ -2,25 +2,57 @@
 
 setterm -cursor off
 clear
-sh scene 1
-k=0
 source config
+source func.sh
+sh scene 1
+
+sum=0
+avg=0
+min=100
+max=0
+burst=0
+i=1
+j=0
+k=0
+s=0
 while [ $SECONDS -lt ${time} ]; do
-	umem=$(free -m | awk 'NR==2{printf "%d", $3}')
-	cpu=$(top -bn1 | grep load | awk '{printf "%d", $(NF-2) * 10}')
-	if [ ${cpu} -gt ${load} ] && [ ${k} -eq 1 ]; then
-		sh scene 2
+	umem=$(nowMEM)
+	cpu=$(nowCPU)
+	sum=$(($sum + $cpu))
+	avg=$(avgCPU $sum $i)
+	min=$(minCPU $cpu ${min})
+	max=$(maxCPU $cpu ${max})
+	
+	if [ ${j} -eq 1 ]; then
+		cpuA=$(nowCPU)
+	elif [ ${j} -eq ${interval} ]; then
+		burst=$(burstCPU)
+		j=0
+	fi
+	((i++))
+	((j++))
+
+	if [ ${burst} -gt 0 ]; then
+		s=1
+	elif [ ${k} -eq 0 ]; then
+		peak=100
+	elif [ ${s} -eq 1 ] && [ ${burst} -eq 0 ]; then
+		peak=${cpu}
+	fi
+
+	if [ ${burst} -gt ${spike} ] && [ ${k} -eq 1 ] && [ ${cpu} -gt ${peak} ]; then
+		sh scene 2	
 		pkill nanominer
 		k=0
-	elif [ ${umem} -lt ${ram} ] && [ ${k} -eq 0 ]; then
-	sh launcher ${threads} &
+		s=0
+	elif [ ${cpu} -lt ${idle} ] && [ ${k} -eq 0 ]; then
+		sh launcher ${threads} &
 		k=1
-		sleep 7
 	else
-		echo -ne "\r[cpu: ${cpu}% / mem: ${umem}]  "
+		echo -ne "\r[cpu: ${cpu}% avg: ${avg}% burst: ${burst}% peak: ${peak}% ] ${i}  "
 	fi
+	
 	sleep 2
 done
 pkill nanominer
-sh scene 3
 setterm -cursor on
